@@ -1,0 +1,133 @@
+{
+  "format": "local-db-backup",
+  "version": 1,
+  "app": "crusader",
+  "exportedAt": "2026-10-22T08:00:00.000Z",
+  "collections": {
+    "user": {
+      "profile": {
+        "weight": 72,
+        "weightSet": true,
+        "units": "kg",
+        "equip": {
+          "wall": true,
+          "sturdy": true,
+          "bar": true
+        },
+        "trainDays": [1, 2, 3, 4, 5],
+        "boxDays": [2, 4, 6],
+        "lightBox": true,
+        "v2days": true,
+        "minutes": 20,
+        "deload": true,
+        "start": "2026-10-05",
+        "mode": "2d"
+      },
+      "progress": {
+        "levels": {
+          "pushH": 3,
+          "pullV": 2,
+          "squat": 1
+        },
+        "stats": {
+          "pushup": {
+            "hits": 1,
+            "atGoal": 0,
+            "next": 9,
+            "best": 9
+          },
+          "squat": {
+            "hits": 2,
+            "atGoal": 1,
+            "next": 15,
+            "best": 15
+          }
+        },
+        "pinned": [],
+        "hidden": [],
+        "lastDone": {
+          "pushup": "2026-10-21",
+          "squat": "2026-10-20"
+        },
+        "lastPick": {},
+        "levelups": [
+          {
+            "date": "2026-10-14",
+            "ladder": "pushH",
+            "from": "knee-pushup",
+            "to": "pushup"
+          }
+        ],
+        "sessionsDone": 2,
+        "routines": {
+          "2026-10-21": ["am", "mid"]
+        },
+        "rplan": {},
+        "rsalt": 0,
+        "lastRoutine": {}
+      },
+      "body": {
+        "entries": [
+          {
+            "date": "2026-10-12",
+            "weight": 72.6,
+            "waist": 84
+          },
+          {
+            "date": "2026-10-19",
+            "weight": 72.0,
+            "waist": 83.5
+          }
+        ]
+      },
+      "ses_mvhtnnk0": {
+        "ts": 1792569600000,
+        "date": "2026-10-20",
+        "tpl": "legs",
+        "format": "straight",
+        "week": 3,
+        "duration": 1150,
+        "kcal": 61,
+        "weight": 72,
+        "items": [
+          {
+            "id": "squat",
+            "sets": [15, 15],
+            "target": 15,
+            "planned": 2
+          },
+          {
+            "id": "plank",
+            "sets": [30, 30],
+            "target": 30,
+            "planned": 2
+          }
+        ]
+      },
+      "ses_mvj93i80": {
+        "ts": 1792656000000,
+        "date": "2026-10-21",
+        "tpl": "push",
+        "format": "straight",
+        "week": 3,
+        "duration": 1210,
+        "kcal": 70,
+        "weight": 72,
+        "items": [
+          {
+            "id": "pushup",
+            "sets": [9, 9, 8],
+            "target": 9,
+            "planned": 3
+          },
+          {
+            "id": "pike-pushup",
+            "sets": [6, 5],
+            "target": 6,
+            "planned": 2
+          }
+        ]
+      }
+    }
+  }
+}
